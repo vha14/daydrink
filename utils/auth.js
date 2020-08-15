@@ -3,7 +3,7 @@ import queryString from 'query-string';
 import * as firebase from 'firebase/app';
 import 'firebase/auth';
 
-import prod from '../.firebase/prod.json';
+import prod from '../.firebase/prod.js';
 
 if (!firebase.apps.length) {
     firebase.initializeApp(prod);
